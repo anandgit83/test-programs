@@ -1,18 +1,7 @@
-#include<iostream>
-#include<map>
 #include<bits/stdc++.h>
-#include<string>
 
 using namespace std;
-/*
-struct compare
-{
-  bool operator()  (pair<student,string> l, pair<student,string>r)
-{
- return l.second > r.second;
-}
-};
-*/
+
 class student
 {
    string name;
@@ -33,17 +22,6 @@ class student
 
 };
 
-/*
-template<typename T, typename U>
-struct compare
-{
-  //bool operator()  (pair<student,string> l, pair<student,string>r)
-  bool operator()  (pair<T,U> l, pair<T,U>r)
-{
- return l.second > r.second;
-}
-};
-*/
 
 template<typename T, typename U>
 struct compare
